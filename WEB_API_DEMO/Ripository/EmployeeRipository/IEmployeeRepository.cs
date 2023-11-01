@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WEB_API_DEMO.Data;
-using WEB_API_DEMO.Models;
+using API_DEMO.Data;
+using API_DEMO.Models;
 
-namespace WEB_API_DEMO.Ripository.Ripository
+namespace API_DEMO.Ripository.Ripository
 {
     public interface IEmployeeRepository
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WEB_API_DEMO.Data;
+using API_DEMO.Data;
 
-namespace WEB_API_DEMO.Service.EmployeeService
+namespace API_DEMO.Service.EmployeeService
 {
     public interface IEmployeeService
     {

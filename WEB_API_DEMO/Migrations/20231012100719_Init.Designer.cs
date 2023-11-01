@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WEB_API_DEMO.Data;
+using API_DEMO.Data;
 
 #nullable disable
 
-namespace WEB_API_DEMO.Migrations
+namespace API_DEMO.Migrations
 {
     [DbContext(typeof(EmployeeAPIDbContext))]
     [Migration("20231012100719_Init")]
@@ -25,7 +25,7 @@ namespace WEB_API_DEMO.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("WEB_API_DEMO.Models.Employee", b =>
+            modelBuilder.Entity("API_DEMO.Models.Employee", b =>
                 {
                     b.Property<Guid>("id")
                         .ValueGeneratedOnAdd()

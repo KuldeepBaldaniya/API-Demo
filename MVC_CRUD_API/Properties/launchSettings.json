@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "MVC_CRUD_API": {
+    "CRUD_MVC": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

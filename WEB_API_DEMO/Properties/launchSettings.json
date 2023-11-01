@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "WEB_API_DEMO": {
+    "API_DEMO": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

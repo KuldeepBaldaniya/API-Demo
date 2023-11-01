@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WEB_API_DEMO\WEB_API_DEMO.csproj" />
+    <ProjectReference Include="..\WEB_API_DEMO\API_DEMO.csproj" />
   </ItemGroup>
 
 </Project>

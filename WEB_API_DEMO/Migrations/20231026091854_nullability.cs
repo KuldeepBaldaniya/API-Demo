@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace WEB_API_DEMO.Migrations
+namespace API_DEMO.Migrations
 {
     /// <inheritdoc />
     public partial class nullability : Migration

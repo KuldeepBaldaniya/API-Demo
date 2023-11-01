@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Net.Http.Headers;
-using MVC_CRUD_API.Common;
-using MVC_CRUD_API.Models;
+using CRUD_MVC.Common;
+using CRUD_MVC.Models;
 using Newtonsoft.Json;
 using System.Text;
 using System.Net;
 using RestSharp;
 
-namespace MVC_CRUD_API.Controllers
+namespace CRUD_MVC.Controllers
 {
     public class HomeController : Controller
     {

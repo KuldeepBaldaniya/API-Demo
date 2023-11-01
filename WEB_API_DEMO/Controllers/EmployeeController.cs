@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using WEB_API_DEMO.Common;
-using WEB_API_DEMO.Data;
-using WEB_API_DEMO.Service.EmployeeService;
+using API_DEMO.Common;
+using API_DEMO.Data;
+using API_DEMO.Service.EmployeeService;
 
-namespace WEB_API_DEMO.Controllers
+namespace API_DEMO.Controllers
 {
     [ApiController]
     [Route("api/[Controller]")]

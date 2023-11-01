@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using WEB_API_DEMO.Data;
-using WEB_API_DEMO.Ripository.Ripository;
-using WEB_API_DEMO.Service.EmployeeService;
+using API_DEMO.Data;
+using API_DEMO.Ripository.Ripository;
+using API_DEMO.Service.EmployeeService;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,4 +1,4 @@
-﻿namespace MVC_CRUD_API.Common
+﻿namespace CRUD_MVC.Common
 {
     public class ServiceResponse
     {
