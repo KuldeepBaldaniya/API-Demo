@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WEB_API_DEMO.Models
+namespace API_DEMO.Models
 {
     [Table("EMPLOYEEAPI")]
     public class Employee

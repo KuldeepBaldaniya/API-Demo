@@ -1,4 +1,4 @@
-﻿namespace WEB_API_DEMO.Common
+﻿namespace API_DEMO.Common
 {
     public class ServiceResponse
     {

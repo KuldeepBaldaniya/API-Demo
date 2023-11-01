@@ -1,4 +1,4 @@
-namespace WEB_API_DEMO
+namespace API_DEMO
 {
     public class WeatherForecast
     {

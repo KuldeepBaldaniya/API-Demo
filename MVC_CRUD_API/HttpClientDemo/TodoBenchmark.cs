@@ -1,7 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 using RestSharp;
 
-namespace WEB_API_DEMO.HttpClientDemo
+namespace API_DEMO.HttpClientDemo
 {
     [MemoryDiagnoser]
     public class TodoBenchmark

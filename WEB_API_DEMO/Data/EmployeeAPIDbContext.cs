@@ -1,8 +1,8 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
-using WEB_API_DEMO.Models;
+using API_DEMO.Models;
 
-namespace WEB_API_DEMO.Data
+namespace API_DEMO.Data
 {
     public class EmployeeAPIDbContext : DbContext
     {

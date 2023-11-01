@@ -1,7 +1,7 @@
-﻿using WEB_API_DEMO.Data;
-using WEB_API_DEMO.Ripository.Ripository;
+﻿using API_DEMO.Data;
+using API_DEMO.Ripository.Ripository;
 
-namespace WEB_API_DEMO.Service.EmployeeService
+namespace API_DEMO.Service.EmployeeService
 {
     public class EmployeeService : IEmployeeService
     {

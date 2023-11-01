@@ -1,4 +1,4 @@
-﻿namespace WEB_API_DEMO.Data
+﻿namespace API_DEMO.Data
 {
     public class AddEmployeeRequest
     {
