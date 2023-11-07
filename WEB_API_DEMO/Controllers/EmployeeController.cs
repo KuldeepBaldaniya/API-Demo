@@ -3,6 +3,7 @@ using System.Diagnostics;
 using API_DEMO.Common;
 using API_DEMO.Data;
 using API_DEMO.Service.EmployeeService;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace API_DEMO.Controllers
 {
@@ -36,14 +37,17 @@ namespace API_DEMO.Controllers
                 return new ServiceResponse
                 {
                     Message = "There is no employee",
-                    Response = result,
+                    //Response = result,
                     StatusCode = ServiceResponse.StatusCodeEnum.OK
                 };
             }
         }
 
         [HttpGet("GetById/{id:guid}")]
-        public async Task<ServiceResponse> GetEmployees([FromRoute] Guid id)
+        [SwaggerOperation(Summary = "Get user by ID")]
+        [SwaggerResponse(200, "Successful response", typeof(AddEmployeeRequest))]
+        [SwaggerResponse(404, "User not found")]
+        public async Task<ServiceResponse> GetEmployees([FromRoute][SwaggerParameter("The ID of the user to retrieve")] Guid id)
         {
             var result = await employeeService.GetEmployees(id);
             if (result != null)
